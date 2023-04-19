@@ -173,4 +173,28 @@ color:var(--dark-gray-blue);
 .btn:hover{
   background:linear-gradient(to bottom,var(--light-slate-blue),var(--light-royal-blue));
 }
-
+@media screen and (max-width:600px){
+  body{
+   align-items:flex-start;
+    background:white;
+  }
+  .container{
+    box-shadow: none;
+  
+  }
+  .card{
+    flex-direction: column;
+  }
+  .result{
+    border-radius: 0 0 1rem 1rem;
+    width:100%;
+    
+  }
+  .result .info{
+    width:260px;
+  }
+  .summary{
+    width:100%;
+  }
+  
+}
